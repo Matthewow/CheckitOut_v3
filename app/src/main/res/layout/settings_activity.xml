@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="486dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/switch2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="666dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="49dp"
+        android:layout_weight="1"
+        android:text="Use overlapped view"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="484dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/switch1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="666dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:text="Use comparision view"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="486dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/m_button_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="666dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="50dp"
+        android:layout_weight="1"
+        android:text="Use list view"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <Button
+        android:id="@+id/m_button_1"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="664dp"
+
+        android:layout_marginEnd="416dp"
+        android:layout_marginBottom="200dp"
+        android:background="#4d83c9"
+        android:text="Save"
+        android:textColor="#f5f7fa"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+</RelativeLayout>
